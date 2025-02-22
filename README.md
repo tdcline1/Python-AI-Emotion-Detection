@@ -1,11 +1,13 @@
-Emotion Detection application using the functions from embeddable AI libraries (Emotion Predict function of the Watson NLP Library). Extracts relevant information from the output received from the function
+# 😊 Emotion Detection App  
 
-Test (test_emotion_detection.py) and package (__init__ file in the EmotionDetector directory) the application
+## Overview  
+A Flask-based application that utilizes AI-powered emotion detection to analyze text sentiment using the **Watson NLP Library**.  
 
-Deploy the function on the web using Flask
+## Features  
+✅ **AI-Powered Analysis** – Extracts meaningful insights using Watson NLP’s `Emotion Predict` function  
+✅ **Testing & Packaging** – Includes `test_emotion_detection.py` for unit testing and `__init__.py` for modular packaging  
+✅ **Web Deployment** – Hosted via Flask for easy accessibility  
+✅ **Robust Error Handling** – Handles invalid input gracefully  
+✅ **Code Quality** – Follows PEP8 guidelines with static code analysis  
 
-Incorporated error handling to account for invalid input to your application
-
-Complies with PEP8 guidelines, static code analysis conducted
-
-App is based on Flask (server-side technology), so it won't work on GitHub Pages since it doesn't support dynamic backends. Need a hosting service like Heroku, Vercel, or Render.
+🚀 **Ready for AI-driven emotion insights!**  
